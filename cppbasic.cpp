@@ -231,6 +231,40 @@ return 0;
 
 
 
+                                                               
+                                                                  String
+ String type is used to store a sequence of characters(text).
+ To use strings, you must include an additional header file in the source code, the <string> library:
+ 
+ 
+ #include<iostream>
+ #include<string>
+ using namespace std;
+ 
+ int main()
+ {
+     
+     string greeting = "hello i am Antor";
+     count<<greeting;
+     return 0;
+ }
+
+
+                                                                                Boolean 
+
+using ASCII values to display certain characters:
+
+#include <iostream>
+using namespace std;
+
+int main () {
+  char a = 65, b = 66, c = 67;//ASCII values
+  cout << a;
+  cout << b;
+  cout << c;
+  return 0;
+}
+
 
 
 
